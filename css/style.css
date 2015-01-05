@@ -9,7 +9,7 @@
 /* Basic */
 
 	body, input, select, textarea {
-		color: purple;
+		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -18,7 +18,7 @@
 	}
 
 	body {
-		background: yellow;
+		background: white;
 		overflow: hidden;
 	}
 
@@ -208,6 +208,7 @@
 		width: 90%;
 	}
 
+/* changed the font size*/
 		#header h1 {
 			font-size: 4.35em;
 			font-weight: 900;
@@ -216,7 +217,7 @@
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.75em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
