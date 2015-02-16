@@ -34,14 +34,13 @@ $(document).ready(function(){
     // iterate to the next key-value in hashmap
     $('#the-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
-      $('#heading').replaceWith('<h1 id="heading">' + names[i%names.length] + '</h1>');
-      //$('#heading').fadeIn(3000).delay(1000).fadeOut(10000);
-      $("#text_desc").replaceWith('<p1 id="text_desc">' + projects[names[i%names.length]] + '</p1>');
+      $('#two').fadeOut(500, function(){ 
+        $('#heading').replaceWith('<h1 id="heading">' + names[i%names.length] + '</h1>');
+        //$('#heading').fadeIn(3000).delay(1000).fadeOut(10000);
+        $("#text_desc").replaceWith('<p1 id="text_desc">' + projects[names[i%names.length]] + '</p1>');
+        $('#two').css("background-image", "url(" + pictures[i%names.length] + ")").delay(1).fadeIn(2000);
+      });
       //$("#text_desc").fadeIn(3000).delay(1000).fadeOut(10000);
-
-      $('#picture').attr('src', pictures[i%names.length]);
-      var newpic = $('#picture').attr('src');
-      console.log(newpic);
       if(i == names.length) i = 1;
       else i += 1;
       return false;
@@ -52,14 +51,15 @@ $(document).ready(function(){
     j+= 1;
     $('#ec-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
-      $('#ec-head').replaceWith('<h1 id="ec-head">' + ec_names[j%ec_names.length] + '</h1>');
-      //$('#heading').fadeIn(3000).delay(1000).fadeOut(10000);
-      $("#ec-desc").replaceWith('<p1 id="ec-desc">' + ec[ec_names[j%ec_names.length]] + '</p1>');
-      //$("#text_desc").fadeIn(3000).delay(1000).fadeOut(10000);
+      $('#three').fadeOut(500, function(){
 
-      $('#ec-pic').attr('src', ec_pics[j%ec_names.length]);
-      var newpic = $('#ec-pic').attr('src');
-      console.log(newpic);
+        $('#ec-head').replaceWith('<h1 id="ec-head">' + ec_names[j%ec_names.length] + '</h1>');
+        //$('#heading').fadeIn(3000).delay(1000).fadeOut(10000);
+        $("#ec-desc").replaceWith('<p1 id="ec-desc">' + ec[ec_names[j%ec_names.length]] + '</p1>');
+        //$("#text_desc").fadeIn(3000).delay(1000).fadeOut(10000);
+        $('#three').css("background-image", "url(" + ec_pics[j%ec_names.length] + ")").delay(1).fadeIn(2000);
+
+      });
       if(j == ec_names.length) j = 1;
       else j += 1;
       return false;
