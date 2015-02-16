@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -11,45 +11,183 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollwatch.min.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/stuff.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="landing">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Hi, I'm Rahul.</h1>
-						<p>I'm a student at <strong><a href="http://www.forbes.com/top-colleges/list/" target="_blank">Williams College</a></strong></br></p>
-						<p>a private liberal arts college in Massachusetts,</br>
+		<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html"></a></h1>
+				<!-- Maybe make the nav bar the header so it's immediately visibile-->
+				<nav id="nav">
+					<ul>
+						</li>
+						<li><a href="#two" class="scrolly icon fa-folder-open"><span class="label">Projects</span></a>
+						</li>						
+						<li>
+							<a href="https://rahul-nath.github.io/tech_resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/pub/rahul-nath/52/a30/753" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a>
+						</li>
+						<li><a href="https://github.com/rahul-nath" class="icon fa-github" target="_blank"><span class="label">Github</span></a>
+						</li>
+						<li><a href="mailto:rn2@williams.edu?subject=Want to Get to Know You" class="icon fa-envelope-o" target="_blank"><span class="label">Email</span></a>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="content">
+					<header>
+						<h2>Hi, I'm Rahul.</h2>
+						<p>I'm a student at <strong><a href="http://www.forbes.com/top-colleges/list/" target="_blank">Williams College</a></strong></br>
+							a private liberal arts college in Massachusetts,</br>
 						where I'm a Computer Science and Economics double-major.</p>
-						<nav>
-							<ul>
-							  <li><a href="https://rahul-nath.github.io/resume.pdf" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
-							  <li><a href="https://www.linkedin.com/pub/rahul-nath/52/a30/753" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							  <li><a href="https://github.com/rahul-nath" class="icon fa-github"><span class="label">Github</span></a></li>
-							  <li><a href="mailto:rn2@williams.edu?subject=Want to Get to Know You" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
 					</header>
+					<span class="image"><img src="images/free.jpg" alt="" /></span>
+				</div>
+				<a href="#one" class="goto-next scrolly">Next</a>
+			</section>
 
-				<!-- Footer 
-					<footer id="footer">
-						<span class="copyright">&copy;  <a href="http://html5up.net">Design Provided by HTML5 UP</a>.</span>
-					</footer> -->
+		<!-- One -->
+			<section id="one" class="spotlight style1 bottom">
+				<span class="image fit main"><img src="images/volcano.jpg" alt="" /></span>
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u$(2)">
+								<header>
+									<h2>My Goal:</h2>
+									<p>To create a lasting impact, or a useful service, for the betterment of society and our global communities.</p>
+								</header>
+							</div>
+							<div class="4u 12u$(2)">
+								<p>Honing the skill set to do this technologically is only half the battle. Software development is no longer an impersonal art; it is an opportunity to give back to the society. To truly innovate, one needs to understand life through a variety of perspectives and draw from the diversity of one's experiences to make a lasting change.  </p>
+							</div>
+							<div class="4u$ 12u$(2)">
+								<p>While I practice the usual ways to bolster my technical skill set -- I do Project Euler problems, make and manage websites and apps -- I also enjoy unconventional activities like DJ'ing, weightlifting, and singing in an a capella group. I try different things, not just coding; my experiences help inform my problem solving abilities, and that's what sets me apart.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#two" class="goto-next scrolly">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="spotlight style2 right">
+				<span class="image fit main"><img src="images/medicost.jpg" id="picture"/></span>
+				<div class="content">
+					<header id="projects">
+						<h2>Personal Projects</h2>
+						<h1 id="heading"></h1>
+						<p1 id="text_desc"></p1>
+					</header>
+					<!-- bug here; need to keep arrow in place-->
+					<a id="the-arrow" class="icon fa-arrow-right"></a>
+				</div>
+				<a href="#three" class="goto-next scrolly">Next</a>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="spotlight style3 left">
+				<span class="image fit main bottom"><img src="images/wso.png" id="ec-pic" /></span>
+				<div class="content">
+					<header>
+						<h2>Coding and Non-Coding Extracurriculars</h2>
+						<h1 id="ec-head"></h1>
+						<p1 id="ec-desc"></p1>
+					</header>
+					<a id="ec-arrow" class="icon fa-arrow-right"></a>
+				</div>
+				<a href="#four" class="goto-next scrolly">Next</a>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="wrapper style1 special fade-up">
+				<div class="container">
+					<header class="major">
+						<h2>The End</h2>
+						<p><a href="#" class="scrolly icon fa-angle-double-up"></a>
+						</p>
+					</header>
+					<!--
+					<div class="box alt">
+						<div class="row uniform">
+							<section class="4u 6u(2) 12u$(3)">
+								<span class="icon alt major fa-area-chart"></span>
+								<h3>even more so</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="4u 6u$(2) 12u$(3)">
+								<span class="icon alt major fa-comment"></span>
+								<h3>Eleifend lorem ornare</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="4u$ 6u(2) 12u$(3)">
+								<span class="icon alt major fa-flask"></span>
+								<h3>Cubilia cep lobortis</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="4u 6u$(2) 12u$(3)">
+								<span class="icon alt major fa-paper-plane"></span>
+								<h3>Non semper interdum</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="4u 6u(2) 12u$(3)">
+								<span class="icon alt major fa-file"></span>
+								<h3>Odio laoreet accumsan</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="4u$ 6u$(2) 12u$(3)">
+								<span class="icon alt major fa-lock"></span>
+								<h3>Massa arcu accumsan</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+						</div>
+					</div>
 				
-			</div>
-		</div>
+					<footer class="major">
+						<ul class="actions">
+							<li><a href="#" class="button"></a></li>
+						</ul>
+					</footer>
+					-->
+				</div>
+			</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://rahul-nath.github.io/resume.pdf" target="_blank" class="icon fa-graduation-cap"><span class="label">Resume</span></a></li>
+					<li>
+					<a href="https://www.linkedin.com/pub/rahul-nath/52/a30/753" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a>
+					</li>
+					<li><a href="https://github.com/rahul-nath" class="icon fa-github" target="_blank"><span class="label">Github</span></a>
+					</li>
+					<li><a href="mailto:rn2@williams.edu?subject=Want to Get to Know You" class="icon fa-envelope-o" target="_blank"><span class="label">Email</span></a>
+					</li>
+					<li><a href="https://soundcloud.com/rahul-nath" class="icon fa-soundcloud" target="_blank"><span class="label">Soundcloud</span></a>
+					</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Rahul Nath. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
 	</body>
 </html>

@@ -1,42 +1,49 @@
-//
-//	Aerial by HTML5 UP
-//	html5up.net | @n33co
-//	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-//
+@mixin line-icon($bg: $color-bg, $fg: $color-fg-bold) {
+	@include icon;
+	$size: 1px;
 
-$bg:						#348cb2 url("images/bg.jpg") bottom left;
-$bg-width:					1500px;
-
-$color-bg:					#fff;
-$color-fg:					#fff;
-$color-nav-icon-hover-bg:	rgba(255,255,255,0.175);
-$color-nav-icon-hover-fg:	#fff;
-$color-nav-icon-active-bg:	rgba(255,255,255,0.35);
-$color-nav-icon-active-fg:	#fff;
-
-$duration-bg:				60s;
-$duration-wrapper:			3s;
-$duration-overlay:			1.5s;
-$duration-header:			1s;
-$duration-nav-icons:		0.5s;
-
-$delay-wrapper:				$duration-wrapper - 1s;
-$delay-overlay:				$delay-wrapper - 0.5s;
-$delay-header:				$delay-overlay + $duration-overlay - 0.75s;
-$delay-nav-icons:			$delay-header + $duration-header - 1s;
-$delay-nav-icon:			0.25s;
-
-$size-nav-icon-wrapper:		5.35em;
-$size-nav-icon:				1.75em;
-
-@mixin bg($width) {
-	@include vendor-keyframes('bg') {
-		0%		{ @include vendor-property('transform', 'translate3d(0,0,0)'); }
-		100%	{ @include vendor-property('transform', 'translate3d(#{$width * -1},0,0)'); }
-	}
-
-	#bg {
-		background-size: $width auto;
-		width: ($width * 3);
+	&:before {
+		color: $bg !important;
+		text-shadow:	$size 0 0 $fg,
+						($size * -1) 0 0 $fg,
+						0 $size 0 $fg,
+						0 ($size * -1) 0 $fg;
 	}
 }
+
+// Misc.
+	$zindex-loader-overlay:			100000;
+	$max-spotlight:					20;
+
+// Duration.
+	$duration-transition:			0.2s;
+	$duration-landing-fadein:		1.5s;
+
+// Size.
+	$size-border-radius:			4px;
+	$size-element-height:			3em;
+	$size-element-margin:			2em;
+
+// Font.
+	$font-family:					'Roboto', Helvetica, sans-serif;
+	$font-family-fixed:				'Courier New', monospace;
+	$font-weight:					100;
+	$font-weight-bold:				300;
+
+// Color.
+	$color-bg:						#1c1d26;
+	$color-bg-transparent:			rgba(23,24,32,0.95);
+	$color-fg-bold:					#ffffff;
+	$color-fg:						rgba(255,255,255,0.75);
+	$color-fg-light:				rgba(255,255,255,0.5);
+	$color-fg-lighter:				rgba(255,255,255,0.15);
+	$color-border:					rgba(255,255,255,0.3);
+	$color-border-bg:				rgba(255,255,255,0.075);
+	$color-border2:					rgba(255,255,255,0.5);
+	$color-border2-bg:				rgba(255,255,255,0.25);
+
+	$color-accent1-bg:				#e44c65;
+	$color-accent2-bg:				#272833;
+	$color-accent2-bg-transparent:	rgba(39,40,51,0.965);
+	$color-accent3-bg:				#5480f1;
+	$color-accent4-bg:				#39c088;
