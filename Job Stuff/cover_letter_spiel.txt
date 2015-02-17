@@ -1,0 +1,14 @@
+As a Computer Science and Economics double major at the best liberal arts institution in the nation, I am constantly faced with handling ambiguous or undefined challenges. My experiences confronting such issues have enabled me to assemble an arsenal of tools that aid me in thinking abstractly and creatively. My talents in combating a variety of technical challenges I come across are no more evident than in my past internship and research experiences.
+
+I am a quick learner who expands and innovates on the knowledge I acquire. I especially love to learn about new technologies, which is why I spent this past summer developing prototype applications using new technologies at Mobiquity Inc. I created an indoor location tracking Android application that logged user location using a combination of Amazon Kinesis and strategically located iBeacons. I also developed test apps that transmitted data to Amazon EC2 instances using secure OAuth authentication methods and aimed for scalability on the server side, giving me intimate knowledge of the MEAN stack.  I was blessed to have direct guidance from the CTO, Android Platform Lead, and head of the Research and Development Lab. My contributions are included in proprietary software that the company markets today.
+
+While my experience at Mobiquity gave me hands-on design and business experience, I also advanced the state-of-the-art in knowledge engineering as an applied artificial intelligence researcher at the Naval Research Lab this summer, continuing into my fall semester at Williams as Senior Honors Research. Working under the Head of the Adaptive Systems Section on the Autonomous Squad Member Project (ASM), I used information retrieved from different sensors of the automaton to amortize the difficulty of increasing its knowledge about the world, all in Common Lisp. I also implemented a knowledge engineering algorithm in Python for comparison against a proprietary knowledge engineering algorithm for the purposes of automated planning and machine learning.
+
+My experiences in start-ups, mid-sized companies, and government research labs in demonstrate the breadth of my knowledge in both academia and industry and make me the ideal candidate for a software engineering position at Door Dash. I appreciate your consideration for the position!
+
+- 
+- 
+- 
+
+
+
