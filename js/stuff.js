@@ -25,15 +25,15 @@ $(document).ready(function(){
     ec['Williams Strength Club'] = 'This year I co-founded Williams Strength: Williams\' first student-run weightlifting organization devoted to serving the non-athletes and club athletes at Williams College. We meet three times a week for an hour where we help new lifters get acquainted with the weightroom and a variety of different workout routines, such as bodybuilding and olympic lifting. I am currently developing the website for Williams Strength, stay tuned.';
     // on click, fade out the nodes of $(#projects)
 
-    $('#heading').replaceWith('<h1 id="heading">' + names[i%names.length] + '</h1>');
+    $('#heading').replaceWith('<h2 id="heading">' + names[i%names.length] + '</h2>');
     $("#text_desc").replaceWith('<p1 id="text_desc">' + projects[names[i%names.length]] + '</p1>');
-    $('#ec-head').replaceWith('<h1 id="ec-head">' + ec_names[j%ec_names.length] + '</h1>');
+    $('#ec-head').replaceWith('<h2 id="ec-head">' + ec_names[j%ec_names.length] + '</h2>');
     $("#ec-desc").replaceWith('<p1 id="ec-desc">' + ec[ec_names[j%ec_names.length]] + '</p1>');
 
     $('#the-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
       $('#two').fadeOut(500, function(){ 
-        $('#heading').replaceWith('<h1 id="heading">' + names[i%names.length] + '</h1>');
+        $('#heading').replaceWith('<h2 id="heading">' + names[i%names.length] + '</h2>');
         $("#text_desc").replaceWith('<p1 id="text_desc">' + projects[names[i%names.length]] + '</p1>');
         $('#two').css("background-image", "url(" + pictures[i%names.length] + ")").delay(1).fadeIn(2000);
       });
@@ -46,7 +46,7 @@ $(document).ready(function(){
     $('#ec-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
       $('#three').fadeOut(500, function(){
-        $('#ec-head').replaceWith('<h1 id="ec-head">' + ec_names[j%ec_names.length] + '</h1>');
+        $('#ec-head').replaceWith('<h2 id="ec-head">' + ec_names[j%ec_names.length] + '</h2>');
         $("#ec-desc").replaceWith('<p1 id="ec-desc">' + ec[ec_names[j%ec_names.length]] + '</p1>');
         $('#three').css("background-image", "url(" + ec_pics[j%ec_names.length] + ")").delay(1).fadeIn(2000);
       });
