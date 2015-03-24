@@ -32,10 +32,10 @@ $(document).ready(function(){
 
     $('#the-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
-      $('#two').fadeOut(500, function(){ 
+      $('#projects').fadeOut(500, function(){ 
         $('#heading').replaceWith('<h2 id="heading">' + names[i%names.length] + '</h2>');
         $("#text_desc").replaceWith('<p1 id="text_desc">' + projects[names[i%names.length]] + '</p1>');
-        $('#two').css("background-image", "url(" + pictures[i%names.length] + ")").delay(1).fadeIn(2000);
+        $('#projects').css("background-image", "url(" + pictures[i%names.length] + ")").delay(1).fadeIn(2000);
       });
 
       if(i == names.length) i = 1;
@@ -45,10 +45,10 @@ $(document).ready(function(){
 
     $('#ec-arrow').click(function(){
       // need a callback for each fadeout where you make the change and then fadein
-      $('#three').fadeOut(500, function(){
+      $('#activities').fadeOut(500, function(){
         $('#ec-head').replaceWith('<h2 id="ec-head">' + ec_names[j%ec_names.length] + '</h2>');
         $("#ec-desc").replaceWith('<p1 id="ec-desc">' + ec[ec_names[j%ec_names.length]] + '</p1>');
-        $('#three').css("background-image", "url(" + ec_pics[j%ec_names.length] + ")").delay(1).fadeIn(2000);
+        $('#activities').css("background-image", "url(" + ec_pics[j%ec_names.length] + ")").delay(1).fadeIn(2000);
       });
 
       if(j == ec_names.length) j = 1;
