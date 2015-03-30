@@ -1,0 +1,78 @@
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{letter} % Default font size of the document, change to 10pt to fit more text
+%\setlength\parindent{20pt}
+%\usepackage{newcent} % Default font is the New Century Schoolbook PostScript font 
+
+\newcommand{\forceindent}{\leavevmode{\parindent=24pt\indent}}
+\usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+
+\pagenumbering{gobble}
+
+% Margins
+\topmargin=-1in % Moves the top of the document 1 inch above the default
+% changed this
+\textheight=9.5in % Total height of the text on the page before text goes on to the next page, this can be increased in a longer letter
+\oddsidemargin=-10pt % Position of the left margin, can be negative or positive if you want more or less room
+\textwidth=6.5in % Total width of the text, increase this if the left margin was decreased and vice-versa
+
+%\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{Arjan Singh Puniani \\
+Rigetti Quantum Computing \\
+2855 Telegraph Ave. Suite 517\\
+Berkeley, CA 94705} 
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\large\bf Rahul Nath \\ % Your name
+%\vspace{20pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+Email: rahul.nath@williams.edu \\ Website: http://rahul-nath.github.io \\ Williams College \\ Williamstown, MA 01267
+%11 Grove St. \\ Glen Cove, NY 11542 \\ (516)491-9232 % Your address and phone number
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Mr. Singh,}
+
+\forceindent 
+
+%(Name of company) challenges the people of the world to learn more about each other through (medium of interest); correspondingly, the world challenges (Name of company) with ambiguous and often undefined tasks to facilitate this endeavor. 
+
+- in a quantum error correction and cryptography class taught by one of the founders of quantum information theory, William Wootters
+- interest in quantum computing finds its roots in my interest in computer science and quantum physics; I found the intersection in this class, and I think in Rigetti I could find a career in it.
+- I have a lot to offer in terms of computational and research experience in machine learning and research 
+
+As a Computer Science and Economics double major at as challenging a school as Williams, I am constantly faced with handling ambiguous and undefined challenges. 
+
+In confronting these challenges I have assembled an arsenal of tools that aid me in thinking creatively and abstractly. 
+
+My talents in combating a variety of different technical challenges are no more evident than in my past internship and research experiences. \\
+
+\forceindent I am a quick learner who expands and innovates on the knowledge I acquire. I have had the opportunity to advance the state-of-the-art in knowledge engineering as an applied artificial intelligence researching contractor at the Naval Research Laboratory this summer, continuing into my fall semester at Williams as Senior Honors Research. Working under the Head of the Adaptive Systems Section on the Autonomous Squad Member Project (ASM), I used information retrieved from different sensors of the automaton to amortize the difficulty of increasing its knowledge about the world, all in Common Lisp. I also implemented a knowledge engineering algorithm in Python for comparison against a proprietary knowledge engineering algorithm for the purposes of automated planning and machine learning. \\
+
+\forceindent My experiences at the Naval Research Laboratory, my education at Williams, and my lifelong dream of helping to build a quantum computer demonstrate the breadth of my knowledge and passion in both academia and industry and make me the ideal candidate for a Junior Quantum Engineering position at Rigetti. I appreciate your consideration for the position. 
+
+\closing{Sincerely,\\
+Rahul Nath \\
+William College Class of 2015  \\
+Computer Science and Economics}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
