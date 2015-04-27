@@ -37,3 +37,33 @@ The text:
 
 “Dear ________: I am following up on your announcement of an opening for a ___________ in your _________ department. I am a Williams College student with a background that would meet your needs and would like to speak with you briefly about your requirements in more detail. Please let me know about next best steps and how I might submit my resume for your consideration. Thanks for your attention.
 Sincerely, ____________”
+
+
+
+
+
+"Link to an app" answer:
+
+Have not single-handedly published app on market, though I have contributed to several apps released by the company I worked for this summer, Mobiquity Inc., including an Android version of Mobi-Reveal iOS app that uses iBeacon technology to reveal great sales deals in stores close by the user of the application.
+
+What code/site/project are you most proud about? Answer:
+
+I am most proud of my work done at the Naval Research Laboratory, where I contributed to the development of a knowledge engineering algorithm designed to infer domain knowledge about an environment based on incomplete and noisy action sequences performed in a multi-agent setting. The outcome of this work is detailed in an upcoming paper that I am co-authored on with my colleagues, which will be submitted for publication this summer.
+
+"what motivates you?":
+- humanizing technology so that it becomes a part of others' lives, and most importantly makes every day life easier and more exciting. 
+- knowing that what I do is important to others. Knowing that what I make, what I am responsible for, needs to be perfect for the customer if it is to reach them at all
+- knowing that people are happier with my work and want more of it
+
+
+"What can you contribute to Spotify?":
+- using machine learning and automated planning techniques to discover individuals' musical tastes
+- Android development experience, but more importantly critical thinking and communication skills that facilitate quality team work and progress.
+- economics/computer science hybrid -- emphasis on efficient coding
+- industrial organizational knowledge, business acumen, and familiarity with software development practices.
+- passion for the job; to bring high quality music into one's life is to make one's day a better one to live
+- being up to date on the latest musical trends and musical tastes
+
+"Tell us about some of your hobby projects?":
+Medicost is a project I have worked on spawned from the MIT Hacking Medicine Hackathon. It is designed to make it easy to look up the cost of a medical procedure by doctors accepting Medicare and Medicaid. For those without insurance, it is often difficult to anticipate the cost of expensive treatments until it is too late. This website allows such individuals to see the cost requests made by doctors to insurance companies and how much they received as a result of their requests, along with other information regarding the doctor's practice. Data was scraped from the Dept. of Health and Human services. I've also developed an Android application called Queuer that allows people to keep track of different tasks they have to do and allows them to manage their completion. It utilizes Android tools such as Volley, GSON, and the SQLite database and was developed using the AGILE methodology. I worked in conjunction with a team and the code is available on my Github account. The app is not on Google Play.
+
