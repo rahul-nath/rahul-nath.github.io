@@ -1,0 +1,11 @@
+Elliot Schrock, February 21, 2014
+Head of iOS Development at Trill
+
+To whom it may concern: 
+
+I was Rahul Nath's professor for MATH 15: Mobile Application Development during January, 2014. In this intensive, month long course, students learned the basics of Android app development in a enterprise environment. This included working with git and GitHub to control/review code and submit pull requests; keeping a Trello board up to date; following MVC conventions in conjunction with AGILE methodologies; using libraries like Volley to make requests to a server, and Gson to handle the result; understanding the application/Activity lifecycle in order to transfer data between screens; and utilizing SQLite databases to persist data locally, among many other topics. 
+
+Rahul was among the best students in the class. He contributed significantly to his team, demonstrating comfort with a team environment and a solid grasp of the material in a very fast moving course. What really stood out, however, was that he asked the right questions. When there was an issue his group was having, or when there was a particular problem that the class was trying to solve, Rahul was able to ask questions that got straight to the heart of the matter. 
+
+From my experience with him, Rahul showed that he was both capable and willing to learn complicated concepts quickly, and apply them in a new arena. From this class, he has a solid grasp of Android development, and most importantly, he has the problem solving skills to take that even further.less
+

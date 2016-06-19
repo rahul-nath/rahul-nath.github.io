@@ -1,0 +1,20 @@
+- turn "work experience" -> projects and expr -> put 237 and research projects
+
+make sure things are easily accessible; for new site make icon at top that redirects to project section 
+- put the AndevCon talk and hackathons (MIT, Brown) on the site
+- ask matt if there's a working title for the paper (change 'publication' to 'paper'; put the work as a citation (work in progress))
+  (is the paper written? who are the authors? )
+- remove the DoD contract crap
+- change to "student contractor"
+- make the ASM first thing, then the description
+
+- for mobiquity
+- say that you developed stuff and sub-bullet the stuff you used for it (they are already there)
+
+- for middlebury
+- investigated current tech -> sub-bullet again
+
+
+- take out Jeannie and Duane
+- if you need more space, get rid of Debate
+- make LIPC shorter -> two
