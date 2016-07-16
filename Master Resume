@@ -24,7 +24,8 @@ Skills
 	Continuous Integration/Deployment:
 		TravisCI
 		Packer
-		Chef		
+		Chef
+		Kubernetes	
 
 	IDEs: 
 		Sublime, Emacs
