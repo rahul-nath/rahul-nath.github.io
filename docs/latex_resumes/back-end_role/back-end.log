@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  4 SEP 2016 10:54
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  4 SEP 2016 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,30 +715,30 @@ TextBlockOrigin set to 0mm x 5mm
 ) (./back-end.aux)
 \openout1 = `back-end.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 55.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 55.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    ... okay on input line 55.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -774,7 +774,7 @@ LaTeX Font Info:    ... okay on input line 50.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 55.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -783,9 +783,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./back-end.out) (./back-end.out)
 \@outlinefile=\write3
@@ -800,64 +800,64 @@ isodate: babel.sty has been loaded
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 50.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 50.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 50.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 50.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 50.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 50.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 50.
-LaTeX Font Info:    Redeclaring math accent \check on input line 50.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 50.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 50.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 50.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 50.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
+LaTeX Font Info:    Redeclaring math accent \check on input line 55.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 50.
+(Font)              `operators' in the math version `normal' on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/Lato-Lig(0)/m/n on input line 50.
+(Font)                  OT1/cmr/m/n --> EU1/Lato-Lig(0)/m/n on input line 55.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 50.
+(Font)              `operators' in the math version `bold' on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Lato-Lig(0)/m/n on input line 50.
+(Font)                  OT1/cmr/bx/n --> EU1/Lato-Lig(0)/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/Lato-Lig(0)/m/n --> EU1/Lato-Lig(0)/m/n on input li
-ne 50.
+ne 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Lato-Lig(0)/m/it on input line 50.
+(Font)                  OT1/cmr/m/it --> EU1/Lato-Lig(0)/m/it on input line 55.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Lato-Lig(0)/bx/n on input line 50.
+(Font)                  OT1/cmr/bx/n --> EU1/Lato-Lig(0)/bx/n on input line 55.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> EU1/Raleway-ExtraLight(0)/m/n on input
- line 50.
+ line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/Lato-Lig(0)/m/n --> EU1/Lato-Lig(0)/bx/n on input l
-ine 50.
+ine 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/Lato-Lig(0)/bx/it on input line 5
-0.
+5.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU1/Raleway-ExtraLight(0)/bx/n on inp
-ut line 50.
+ut line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 55.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -878,8 +878,10 @@ ex-text;+smcp;"
 . and font adjustment code:
 . 
 .................................................
+File: linked_in_pic.jpg Graphic file (type QTm)
+<use  "linked_in_pic.jpg" >
 LaTeX Font Info:    Font shape `EU1/Raleway-ExtraLight(0)/m/n' will be
-(Font)              scaled to size 9.56726pt on input line 66.
+(Font)              scaled to size 9.56726pt on input line 71.
 \g__fontspec_family_Lato-Hai_int=\count147
 .................................................
 . fontspec info: "defining-font"
@@ -934,32 +936,33 @@ ext;+smcp;"
 . and font adjustment code:
 . 
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 66.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 71.
+
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 66.
+(Font)              size <5> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 66.
+(Font)              size <5> substituted on input line 71.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 66.
+(Font)              <11> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 66.
+(Font)              <7.69997> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 66.
+(Font)              <5.5> on input line 71.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 66.
+(Font)              size <5> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/sc' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 80.
+(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 85.
 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(1)/m/sc' undefined
-(Font)              using `EU1/Lato-Lig(1)/m/n' instead on input line 80.
+(Font)              using `EU1/Lato-Lig(1)/m/n' instead on input line 85.
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -972,7 +975,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 \\[1\baselineskip]
+l.86 \\[1\baselineskip]
                        
 ? 
 \g__fontspec_family_Lato-Bol_int=\count149
@@ -994,7 +997,7 @@ l.81 \\[1\baselineskip]
 .................................................
 
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
-(Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 82.
+(Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 87.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1003,7 +1006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \\
+l.115 \\
         [1\baselineskip]
 ? 
 
@@ -1013,25 +1016,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \\
+l.163 \\
         [1\baselineskip]
 ? 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/it' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 161.
+(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 166.
 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/bx/it' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 161.
+(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 166.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./back-end.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1040,15 +1043,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 22209 strings out of 493706
- 412182 string characters out of 6145769
- 475406 words of memory out of 5000000
- 25375 multiletter control sequences out of 15000+600000
+ 22214 strings out of 493706
+ 412228 string characters out of 6145769
+ 475515 words of memory out of 5000000
+ 25377 multiletter control sequences out of 15000+600000
  6108 words of font info for 56 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,5n,104p,10360b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,7n,104p,10360b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on back-end.pdf (1 page).

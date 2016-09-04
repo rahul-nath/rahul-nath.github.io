@@ -46,7 +46,12 @@
 
 \documentclass[]{deedy-resume-openfont}
 
-
+\newcommand{\photo}[1]{% Create a new command for printing photo
+\begin{textblock}{60}(155,6) % The position of the Last Updated text on the page (75% of the page across, 4% down)
+\centering
+\fboxsep1.5pt\fcolorbox{blue}{white}%
+{\includegraphics[width=1.5cm,height=2.5cm,keepaspectratio]{#1}}
+\end{textblock}}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \lastupdated
-
+\photo{linked_in_pic.jpg}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
@@ -71,7 +76,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.31\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -86,7 +91,7 @@ Specialization in Machine Learning
 \sectionsep
 
 \subsection{Udacity}
-\descript{N.D. in Android Dev}
+\descript{N.D. in Android Development}
 \location{Expected December 2016 | Udacity}
 \sectionsep
 
@@ -109,31 +114,19 @@ Dean's List\\
 \subsection{Programming}
 
 \location{Main Languages:}
-Java \textbullet{}  SQL  \textbullet{} C \textbullet{} Python \textbullet{} 
+Java \textbullet{}  SQL  \textbullet{} C \textbullet{} Python
 \\[1\baselineskip]
 
 \location{Recent Experience with:}
-Android  \textbullet{} 
-Unix/Bash \textbullet{}
-HTML/CSS \textbullet{}
-AWS EC2 \textbullet{}
-PostgreSQL \textbullet{} 
+Android  \textbullet{}  Unix/Bash \textbullet{} HTML/CSS \textbullet{} AWS EC2 \textbullet{} PostgreSQL
 \\[1\baselineskip]
 
 \location{Past Experience with:}
-x86/ARM Assembly \textbullet{} 
-Javascript \textbullet{} 
-Node.js \textbullet{} 
-Heroku \textbullet{} 
+x86/ARM Assembly \textbullet{}  Javascript \textbullet{}  Node.js \textbullet{}  Heroku
 \sectionsep
 
 \location{Third-Party Tools:}
-Optimizely A/B \textbullet{} 
-Slack \textbullet{} 
-Git \textbullet{} 
-JIRA \textbullet{} 
-Trello \textbullet{} 
-Asana \textbullet{} 
+Optimizely A/B \textbullet{}  Slack \textbullet{}  Git \textbullet{}  JIRA \textbullet{}  Trello \textbullet{}  Asana
 \sectionsep
 
 \subsection{Spoken Languages}
@@ -175,10 +168,10 @@ Operating Systems\\
 \descript{| Developer \&  Course Manager   }
 \location{Aug 2015 – July 2016 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Taught use of tools such as scikit-learn, pandas, numpy, and Jupyter Notebook and Machine Learning techniques to nanodegree students.
-\item Created webcast teaching sessions and authored lessons on virtualization and other topics
+\begin{tightemize}
+\item Generated project rubrics for Android Basics Nanodegree. Also created webcast teaching sessions and authored lessons on virtualization.
 \item Developed internal software, such as automating student YouTube data collection, student-to-student video interfacing platform, and integrated Slack orientation bot.
-\item Managed fleet of code reviewers for Intro to Programming Nanodegree
+\item Managed fleet of code reviewers for Intro to Programming Nanodegree.
 \end{tightemize}
 \sectionsep
 
@@ -217,6 +210,12 @@ Operating Systems\\
 %     Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
+
+\location{Ocula}
+\begin{tightemize}
+\item Android application that lets users share photosphere pictures with each other via a central hub. Exploring the use of Google's new VR SDK. (In development.)
+\end{tightemize}
+\sectionsep
 
 \location{Queuer}
 \begin{tightemize}

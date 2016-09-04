@@ -46,7 +46,12 @@
 
 \documentclass[]{deedy-resume-openfont}
 
-
+\newcommand{\photo}[1]{% Create a new command for printing photo
+\begin{textblock}{60}(155,6) % The position of the Last Updated text on the page (75% of the page across, 4% down)
+\centering
+\fboxsep1.5pt\fcolorbox{blue}{white}%
+{\includegraphics[width=1.5cm,height=2.5cm,keepaspectratio]{#1}}
+\end{textblock}}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \lastupdated
-
+\photo{linked_in_pic.jpg}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
@@ -71,7 +76,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.31\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
