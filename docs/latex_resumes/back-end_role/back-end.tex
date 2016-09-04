@@ -46,7 +46,12 @@
 
 \documentclass[]{deedy-resume-openfont}
 
-
+\newcommand{\photo}[1]{% Create a new command for printing photo
+\begin{textblock}{60}(155,6) % The position of the Last Updated text on the page (75% of the page across, 4% down)
+\centering
+\fboxsep1.5pt\fcolorbox{blue}{white}%
+{\includegraphics[width=1.5cm,height=2.5cm,keepaspectratio]{#1}}
+\end{textblock}}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,7 +60,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \lastupdated
-
+\photo{linked_in_pic.jpg}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
@@ -71,7 +76,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.31\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -183,9 +188,9 @@ Mobile Application Development\\
 \location{Aug 2015 – July 2016 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Automated student YouTube data collection. Set up Python cron job that queries YouTube Analytics servers for data, formats data, and stores data on company AWS RedShift server, pipelining data into Chartio. 
-
 \item Developed Udacity's first student-to-student video platform with integrated Slack orientation bot. Leveraged Python, Google App Engine, and Ruby on Rails. Slack orientation bot would introduce students in the Intro to Programming Nanodegree to Udacity resources.
+
+\item Automated student YouTube data collection. Set up Python cron job that queries YouTube Analytics servers for data, formats data, and stores data on company AWS RedShift server, pipelining data into Chartio. 
 
 \item Created webcast teaching sessions and authored lessons on virtualization and other topics. Helped students through projects for Intro to Programming and Machine Learning Nanodegrees.
 \end{tightemize}
