@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  2 SEP 2016 18:52
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  4 SEP 2016 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,21 +1045,21 @@ LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/it' undefined
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/bx/it' undefined
 (Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 159.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
 [1
 
 
 ! Undefined control sequence.
 <write> ...tect \numberline {1.1}\let \reserved@e 
                                                   \relax \let \reserved@f \r...
-l.252 \end{document}
+l.248 \end{document}
                       \documentclass[]{article}
 ? 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (./data_analysis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 248.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1068,7 +1068,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
  22210 strings out of 493706
