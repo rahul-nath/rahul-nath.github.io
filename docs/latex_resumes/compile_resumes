@@ -1,0 +1,14 @@
+cd android_role
+xelatex android.tex
+open android.pdf
+cd ..
+
+cd back-end_role/
+xelatex back-end.tex
+open back-end.pdf
+cd ..
+
+cd data_analysis_role/
+xelatex data_analysis.tex
+open data_analysis.pdf
+cd ..

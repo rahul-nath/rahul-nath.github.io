@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  4 SEP 2016 12:01
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 SEP 2016 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,14 +1027,14 @@ LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/it' undefined
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/bx/it' undefined
 (Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 148.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./back-end.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 233.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1043,14 +1043,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 22214 strings out of 493706
- 412228 string characters out of 6145769
- 475515 words of memory out of 5000000
- 25377 multiletter control sequences out of 15000+600000
- 6108 words of font info for 56 fonts, out of 8000000 for 9000
+ 22212 strings out of 493706
+ 412123 string characters out of 6145769
+ 476515 words of memory out of 5000000
+ 25376 multiletter control sequences out of 15000+600000
+ 6100 words of font info for 55 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  53i,7n,104p,10360b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 
