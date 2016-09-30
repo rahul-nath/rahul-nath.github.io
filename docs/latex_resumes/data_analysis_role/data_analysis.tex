@@ -1,49 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[]{deedy-resume-openfont}
 
 \newcommand{\photo}[1]{% Create a new command for printing photo
@@ -185,14 +139,17 @@ Econometrics and Data Analysis\\
 \section{Experience}
 
 \runsubsection{Udacity}
-\descript{| Machine Learning Course Manager \& Developer }
+\descript{| Machine Learning ND Course Manager}
 \location{Aug 2015 – July 2016 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item Taught use of tools such as scikit-learn, pandas, numpy, and Jupyter Notebook and ML techniques to over 2,000 Machine Learning Nanodegree students, and Intro to Programming.
+\begin{tightemize}
 
-\item Automated student YouTube data collection for all of Udacity. Wrote Python cron job that queried Analytics servers collecting over 8,000,000 data points, formatted data, stored data on company AWS RedShift server, and pipelined it into Chartio.
+\item Re-invented Intro to Programming Nanodegree (IPND) into exploratory program to other NDs, increasing student enrollment by over 20\% -- the fastest growing ND at Udacity.
 
-\item Developed student-to-student video interfacing platform and integrated Slack orientation bot for over 2,000 students in the Intro to Programming ND.
+\item QA'd and created content for Machine Learning, DevOps \& Android Basics. Taught use of iPython/Jupyter Notebooks, pandas, and sk-learn.
+
+\item Created webcast teaching sessions and authored lessons on virtualization and Python optimization constructs.
+
 \end{tightemize}
 \sectionsep
 
@@ -200,7 +157,7 @@ Econometrics and Data Analysis\\
 \descript{| Summer Contractor }
 \location{July 2014 – Sept 2014 | National Harbor, MD}
 \begin{tightemize}
-\item Implemented a tool in Python that reduces the time required for A.I. robot to learn actions from exponential to polynomial time. Reducing the processing time made it feasible to automate the process of knowledge acquisition.
+\item Implemented a tool in Python for A.I. robot to learn actions in polynomial time -- a previously intractable problem -- making it feasible to automate the process of knowledge acquisition.
 
 \item Designed and implemented an algorithm in Lisp and Python to reduce prepositional and word-sense ambiguity in interpreted speech using contextual information and machine learning.
 \end{tightemize}
@@ -210,26 +167,22 @@ Econometrics and Data Analysis\\
 \descript{| Android Developer Intern}
 \location{May 2014 – July 2014 | Wellesley, MA}
 \begin{tightemize}
-\item Implemented communication and data collection between an Amazon EC2 server instance and an Android application for Mobiquity’s deltaIQ platform, which forms the basis of their health monitoring service Used Node.js.
+\item Implemented communication and data collection between an Amazon EC2 server instance and an Android application for Mobiquity’s deltaIQ platform, which forms the basis of their health monitoring service. Also used Node.js.
 
-\item Implemented the UX, UI, and business logic for an indoor navigation app using iBeacons, Google Glass and AWS EC2, DynamoDB, S3, Kinesis, and Cognito.
+\item Created the UX, UI, and business logic for an indoor navigation app using iBeacons, Google Glass, and AWS EC2, DynamoDB, S3, Kinesis, and Cognito.
 \end{tightemize}
 \sectionsep
-
-\runsubsection{Williams College Honors Research}
-\descript{}
-\location{Sept 2014 – Dec 2014 | Williamstown, MA}
-\begin{tightemize}
-\item PrePost2. Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
-\end{tightemize}
-\sectionsep
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
+
+\location{YouTube Data Pull}
+\begin{tightemize}
+\item Automated student YouTube data collection for all of Udacity. Wrote Python cron job that queried YouTube Analytics servers collecting over 8,000,000 data points, formatted data, stored data on Udacity's AWS RedShift server, and pipelined it into Chartio as a data source.
+\end{tightemize}
+\sectionsep
 
 \location{"Predicting Boston Housing Prices"}
 \begin{tightemize}
@@ -237,9 +190,9 @@ Econometrics and Data Analysis\\
 \end{tightemize}
 \sectionsep
 
-\location{Medicost}
+\location{PrePost2}
 \begin{tightemize}
-\item Created website to easily search cost requests and receipts made by doctors to insurance companies, along with other information regarding the doctor's practice. Data was scraped from the Dept. of Health and Human services.
+\item Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
 \end{tightemize}
 \sectionsep
 
@@ -247,6 +200,13 @@ Econometrics and Data Analysis\\
 \begin{tightemize}
 \item An econometric study I performed exploring the possibility that attendance of extracurricular programs intended to motivate and engage students – including youth programs and dropout prevention programs – is associated with a lower likelihood of dropping out for at-risk students. Analysis available upon request.
 \end{tightemize}
+\sectionsep
+
+% \location{Medicost}
+% \begin{tightemize}
+% \item Created website to easily search cost requests and receipts made by doctors to insurance companies, along with other information regarding the doctor's practice. Data was scraped from the Dept. of Health and Human services.
+% \end{tightemize}
+
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}

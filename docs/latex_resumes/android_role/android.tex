@@ -1,49 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[]{deedy-resume-openfont}
 
 \newcommand{\photo}[1]{% Create a new command for printing photo
@@ -122,7 +76,7 @@ Android  \textbullet{}  Unix/Bash \textbullet{} HTML/CSS \textbullet{} AWS EC2 \
 \\[1\baselineskip]
 
 \location{Past Experience with:}
-x86/ARM Assembly \textbullet{}  Javascript \textbullet{}  Node.js \textbullet{}  Heroku
+x86/ARM Assembly \textbullet{}  Javascript \textbullet{}  Node.js \textbullet{}  Heroku \textbullet{} Volley \textbullet{} GSON
 \sectionsep
 
 \location{Third-Party Tools:}
@@ -165,13 +119,18 @@ Operating Systems\\
 \section{Experience}
 
 \runsubsection{Udacity}
-\descript{| Developer \&  Course Manager   }
+\descript{| Machine Learning ND Course Manager}
 \location{Aug 2015 – July 2016 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Generated project rubrics for Android Basics Nanodegree. Also created webcast teaching sessions and authored lessons on virtualization.
-\item Developed internal software, such as automating student YouTube data collection, student-to-student video interfacing platform, and integrated Slack orientation bot for over 2,000 students involved in the Intro to Programming Nanodegree.
-\item Managed fleet of over 50 code reviewers for Intro to Programming Nanodegree.
+
+
+\item Re-invented Intro to Programming Nanodegree (IPND) into exploratory program to other NDs, increasing student enrollment by over 20\% -- the fastest growing ND at Udacity.
+
+\item QA'd and created content for Android Basics, DevOps \& Machine Learning.
+
+\item Created webcast teaching sessions and authored lessons on virtualization and Python optimization constructs. Created grading rubric for Android Basics.
+
 \end{tightemize}
 \sectionsep
 
@@ -179,7 +138,7 @@ Operating Systems\\
 \descript{| Summer Contractor }
 \location{July 2014 – Sept 2014 | National Harbor, MD}
 \begin{tightemize}
-\item Implemented a tool in Python that reduces the time required for A.I. robot to learn actions from exponential to polynomial time. Reducing the processing time made it feasible to automate the process of knowledge acquisition.
+\item Implemented a tool in Python for A.I. robot to learn actions in polynomial time -- a previously intractable problem -- making it feasible to automate the process of knowledge acquisition.
 
 \item Designed and implemented an algorithm in Lisp and Python to reduce prepositional and word-sense ambiguity in interpreted speech using contextual information and machine learning.
 \end{tightemize}
@@ -189,20 +148,11 @@ Operating Systems\\
 \descript{| Android Developer Intern}
 \location{May 2014 – July 2014 | Wellesley, MA}
 \begin{tightemize}
-\item Implemented communication and data collection between an Amazon EC2 server instance and an Android application for Mobiquity’s deltaIQ platform, which forms the basis of their health monitoring service Used Java, Node.js, and AWS.
+\item Implemented communication and data collection between an Amazon EC2 server instance and an Android application for Mobiquity’s deltaIQ platform, which forms the basis of their health monitoring service. Also used Node.js.
 
-\item Implemented the UX, UI, and business logic for an indoor navigation app that used iBeacons, Google Glass and AWS EC2, DynamoDB, S3, Kinesis, and Cognito.
+\item Created the UX, UI, and business logic for an indoor navigation app using iBeacons, Google Glass, and AWS EC2, DynamoDB, S3, Kinesis, and Cognito.
 \end{tightemize}
 \sectionsep
-
-\runsubsection{Williams College Honors Research}
-\descript{}
-\location{Sept 2014 – Dec 2014 | Williamstown, MA}
-\begin{tightemize}
-\item PrePost2. Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
-\end{tightemize}
-\sectionsep
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -222,6 +172,23 @@ Operating Systems\\
 \end{tightemize}
 \sectionsep
 
+% \location{TA Sessions}
+% \begin{tightemize}
+% \item Conceptualized and developed Udacity's first student-to-student video platform with integrated Slack orientation bot for over 2000 students enrolled in IPND. Leveraged Python, Google App Engine, and Ruby on Rails.
+% \end{tightemize}
+% \sectionsep
+
+\location{YouTube Data Pull}
+\begin{tightemize}
+\item Automated student YouTube data collection for all of Udacity. Wrote Python cron job that queried YouTube Analytics servers collecting over 8,000,000 data points, formatted data, stored data on Udacity's AWS RedShift server, and pipelined it into Chartio as a data source.
+\end{tightemize}
+\sectionsep
+
+% \location{PrePost2}
+% \begin{tightemize}
+% \item Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
+% \end{tightemize}
+% \sectionsep
 
 \location{Virtual Assembly Emulation}
 \begin{tightemize}

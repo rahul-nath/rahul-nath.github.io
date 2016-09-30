@@ -1,49 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[]{deedy-resume-openfont}
 
 \newcommand{\photo}[1]{% Create a new command for printing photo
@@ -116,7 +70,7 @@ Dean's List\\
 \subsection{Programming}
 
 \location{Main Languages:}
-Python \textbullet{}  SQL  \textbullet{} Java \textbullet{} C
+Python \textbullet{}  SQL  \textbullet{} C \textbullet{} Java 
 \\[1\baselineskip]
 
 \location{Recent Experience with:}
@@ -166,15 +120,17 @@ Mobile Application Development\\
 \section{Experience}
 
 \runsubsection{Udacity}
-\descript{| Developer \& Course Manager}
+\descript{| Machine Learning ND Course Manager}
 \location{Aug 2015 – July 2016 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Conceptualized and developed Udacity's first student-to-student video platform with integrated Slack orientation bot for over 2000 students enrolled in the Intro to Programming Nanodegree. Leveraged Python, Google App Engine, and Ruby on Rails.
 
-\item Automated student YouTube data collection for all of Udacity. Wrote Python cron job that queried Analytics servers collecting over 8,000,000 data points, formatted data, stored data on company AWS RedShift server, and pipelined it into Chartio as a data source.
+\item Re-invented Intro to Programming Nanodegree (IPND) into exploratory program to other NDs, increasing student enrollment by over 20\% -- the fastest growing ND at Udacity.
 
-\item Created webcast teaching sessions and authored lessons on virtualization and other topics. Helped students through projects for Intro to Programming and Machine Learning Nanodegrees.
+\item Created webcast teaching sessions and authored lessons on virtualization and Python optimization constructs.
+
+\item QA'd and created content for Machine Learning, DevOps \& Android Basics.
+
 \end{tightemize}
 \sectionsep
 
@@ -182,7 +138,7 @@ Mobile Application Development\\
 \descript{| Summer Contractor }
 \location{July 2014 – Sept 2014 | National Harbor, MD}
 \begin{tightemize}
-\item Implemented a tool in Python that reduces the time required for A.I. robot to learn actions from exponential to polynomial time. Reducing the processing time made it feasible to automate the process of knowledge acquisition.
+\item Implemented a tool in Python for A.I. robot to learn actions in polynomial time -- a previously intractable problem -- making it feasible to automate the process of knowledge acquisition.
 
 \item Designed and implemented an algorithm in Lisp and Python to reduce prepositional and word-sense ambiguity in interpreted speech using contextual information and machine learning.
 \end{tightemize}
@@ -198,36 +154,41 @@ Mobile Application Development\\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Williams College Honors Research}
-\descript{}
-\location{Sept 2014 – Dec 2014 | Williamstown, MA}
-\begin{tightemize}
-\item PrePost2. Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
-\end{tightemize}
-\sectionsep
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Projects}
+
+\location{TA Sessions}
+\begin{tightemize}
+\item Conceptualized and developed Udacity's first student-to-student video platform with integrated Slack orientation bot for over 2000 students enrolled in IPND. Leveraged Python, Google App Engine, and Ruby on Rails.
+\end{tightemize}
+\sectionsep
+
+\location{YouTube Data Pull}
+\begin{tightemize}
+\item Automated student YouTube data collection for all of Udacity. Wrote Python cron job that queried YouTube Analytics servers collecting over 8,000,000 data points, formatted data, stored data on Udacity's AWS RedShift server, and pipelined it into Chartio as a data source.
+\end{tightemize}
+\sectionsep
+
+\location{PrePost2}
+\begin{tightemize}
+\item Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
+\end{tightemize}
+\sectionsep
+
 \location{Medicost}
 \begin{tightemize}
 \item Created website to easily search cost requests and receipts made by doctors to insurance companies, along with other information regarding the medical practice. Data was scraped from the Dept. of Health and Human services.
 \end{tightemize}
 \sectionsep
 
-\location{The People's Lobby}
-\begin{tightemize}
-\item Website to engage citizenry in legislative process. (In development.)
-\end{tightemize}
-\sectionsep
-
 \location{Virtual Assembly Emulation}
 \begin{tightemize}
-\item Wrote a virtual emulator for a RISC assembly instruction set, WARM, using a CISC assembly instruction set, WIND. Designed a JIT compiler to optimize performance.
+\item Wrote a virtual emulator for a RISC assembly instruction set, WARM, using a CISC assembly instruction set, WIND. Wrote a JIT compiler to optimize.
 \end{tightemize}
+
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
