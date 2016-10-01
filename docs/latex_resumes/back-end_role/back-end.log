@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  30 SEP 2016 18:51
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  30 SEP 2016 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,6 +997,10 @@ l.40 \\[1\baselineskip]
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 41.
 
+! Extra }, or forgotten \endgroup.
+l.43 ...ters-degree-for-a-mere-7000.html}{OMSCS}}}
+                                                  
+? 
 
 ! LaTeX Error: There's no line here to end.
 
