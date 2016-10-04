@@ -1,33 +1,18 @@
 \documentclass[]{deedy-resume-openfont}
 
-\newcommand{\photo}[1]{% Create a new command for printing photo
-\begin{textblock}{60}(155,6) % The position of the Last Updated text on the page (75% of the page across, 4% down)
-\centering
-\fboxsep1.5pt\fcolorbox{blue}{white}%
-{\includegraphics[width=1.5cm,height=2.5cm,keepaspectratio]{#1}}
-\end{textblock}}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
-\begin{document}
+% \hypersetup{%
+%   colorlinks=true,% hyperlinks will be black
+%   urlcolor=cyan
+% }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-\photo{linked_in_pic.jpg}
+\begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\namesection{Rahul}{Nath}{ \urlstyle{same}\url{http://therahulnath.com} |  \href{mailto:rahul.nath.eph@gmail.com}{rahul.nath.eph@gmail.com}\\ 516.491.9232 | Github: \href{https://github.com/rahul-nath}{rahul-nath}
+\namesection{Rahul}{Nath}{ \urlstyle{same} \underline{\url{http://therahulnath.com}} |  \underline{\href{mailto:rahul.nath.eph@gmail.com}{rahul.nath.eph@gmail.com}}\\ 516.491.9232 | Github: \underline{\href{https://github.com/rahul-nath}{rahul-nath}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,10 +29,10 @@
 
 \section{Education} 
 \\[1\baselineskip]
-\subsection{\href{http://www.wsj.com/articles/global-colleges-ranked-by-subject-1475029803}{Georgia Tech}}
+\subsection{\underline{\href{https://www.timeshighereducation.com/world-university-rankings/2017/subject-ranking/computer-science\#!/page/0/length/25/sort_by/rank_label/sort_order/asc/cols/rank_only}{Georgia Tech}}}
 \descript{M.S. in Computer Science}
-\location{Expected June 2018 | \href{http://www.nytimes.com/2016/09/29/upshot/an-online-education-breakthrough-a-masters-degree-for-a-mere-7000.html}{OMSCS}}}
-Specialization in Machine Learning
+\location{Part-Time | \underline{\href{http://www.nytimes.com/2016/09/29/upshot/an-online-education-breakthrough-a-masters-degree-for-a-mere-7000.html}{OMSCS}}}
+{\footnotesize \textit{\textbf{Specialization in Machine Learning}}} 
 \sectionsep
 
 \subsection{Udacity}
@@ -55,24 +40,28 @@ Specialization in Machine Learning
 \location{Expected December 2016 | Udacity}
 \sectionsep
 
-\subsection{\href{http://www.forbes.com/top-colleges/list/}{Williams College}} 
+\subsection{\underline{\href{http://www.forbes.com/top-colleges/list/}{Williams College}}}
 \descript{B.S. in Computer Science \\ B.A. in Economics}
 \location{June 2015 | Williamstown, MA}
-Class of 1960’s Economics Scholar\\
-Dean's List\\
+{\footnotesize \textit{\textbf{Dean's List}}}, {\footnotesize \textit{\textbf{Class of 1960 Economics Scholar}}}
 \sectionsep
 
 \subsection{GCHS, Valedictorian}
 \location{June 2011 |  Glen Cove, New York}
 \sectionsep
 
+\subsection{Relevant Coursework}
+High Performance Parallel Algorithms
+Data Structures \& Algorithms
+{\footnotesize \textit{\textbf{(Also T.A.'d) }}} \\
+Operating Systems
+\\[1\baselineskip]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\\[1\baselineskip]
 \subsection{Programming}
 
 \location{Main Languages:}
@@ -84,34 +73,28 @@ Javascript \textbullet{} Scala \textbullet{}  C++  \textbullet{} Lisp
 \\[1\baselineskip]
 
 \location{Recent Experience with:}
-HTML/CSS \textbullet{} Google App Engine \textbullet{}  Unix/Bash \textbullet{} Docker \textbullet{}  Vagrant \textbullet{} AWS EC2/Redshift \textbullet{} PostgreSQL \textbullet{}  Chef
+HTML/CSS \textbullet{} Google App Engine \\
+\textbullet{}  Unix/Bash \textbullet{} Docker \textbullet{}  Vagrant \textbullet{} AWS EC2/Redshift \textbullet{} PostgreSQL \textbullet{}  Chef
 \\[1\baselineskip]
 
 \location{Past Experience with:}
-Selenium \textbullet{} Ruby on Rails \textbullet{}  Node.js \textbullet{}  Heroku \textbullet{}  BeautifulSoup
+Selenium \textbullet{} Ruby on Rails \\
+\textbullet{}  Node.js \textbullet{}  Heroku \textbullet{}  BeautifulSoup
 \sectionsep
 
 \location{Third-Party Tools:}
-Chartio \textbullet{}  Optimizely A/B \textbullet{}  Slack \textbullet{}  Git \textbullet{}  JIRA \textbullet{} Trello \textbullet{} Asana \textbullet{} Reflektiv
+Chartio \textbullet{}  Optimizely A/B \textbullet{}  Slack \\
+\textbullet{}  Git \textbullet{}  JIRA \textbullet{} Trello \textbullet{} Asana \textbullet{} Reflektiv
 \sectionsep
 
 \subsection{Spoken Languages}
 Spanish (Intermediate Proficiency) \\
 French (Beginner Proficiency)\\
-Bengali (Intermediate Proficiency)\\
-[1\baselineskip]
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
+Bengali (Intermediate Proficiency)
 \\[1\baselineskip]
-High Performance Parallel Algorithms
-Data Structures and Algorithms\\
-{\footnotesize \textit{\textbf{(Also served as Teaching Asst) }}} \\
-Operating Systems\\
-Mobile Application Development\\
+
+\section{Open-Source}
+\textbullet{} String matching: \underline{\href{https://github.com/seatgeek/fuzzywuzzy}{Fuzzy-Wuzzy}} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -145,7 +128,7 @@ Mobile Application Development\\
 \sectionsep
 
 \runsubsection{Naval Research Laboratory}
-\descript{| Summer Contractor }
+\descript{| Contractor }
 \location{July 2014 – Sept 2014 | National Harbor, MD}
 \begin{tightemize}
 \item Implemented a tool in Python for A.I. robot to learn actions in polynomial time -- a previously intractable problem -- making it feasible to automate the process of knowledge acquisition.
@@ -182,19 +165,19 @@ Mobile Application Development\\
 \end{tightemize}
 \sectionsep
 
-\location{\href{https://github.com/rahul-nath/PrePost2/blob/master/final_try.py}{PrePost2}}
+\location{\underline{\href{https://github.com/rahul-nath/PrePost2/blob/master/final_try.py}{PrePost2}}}
 \begin{tightemize}
 \item Using selenium, multiprocessing pools, and BeautifulSoup, I created a webscraper to collect documents with sparse descriptions of action sequences. Docs were used to learn static predicates to generate domain models, making domain models 25\% more accurate for automated planning engines.
 \end{tightemize}
 \sectionsep
 
-\location{\href{https://github.com/rahul-nath/medicost}{Medicost}}
+\location{\underline{\href{https://github.com/rahul-nath/medicost}{Medicost}}}
 \begin{tightemize}
 \item Created website to easily search cost requests and receipts made by doctors to insurance companies, along with other information regarding the medical practice. Data was scraped from the Dept. of Health and Human services.
 \end{tightemize}
 \sectionsep
 
-\location{\href{https://github.com/rahul-nath/SchoolStuff/blob/master/classes/comp_sci/cs237/wave2/wave3.s}{Virtual Assembly Emulation}}
+\location{\underline{\href{https://github.com/rahul-nath/SchoolStuff/blob/master/classes/comp_sci/cs237/wave2/wave3.s}{Virtual Assembly Emulation}}}
 \begin{tightemize}
 \item Wrote a virtual emulator for a RISC assembly instruction set, WARM, using a CISC assembly instruction set, WIND. Wrote a JIT compiler to optimize.
 \end{tightemize}
