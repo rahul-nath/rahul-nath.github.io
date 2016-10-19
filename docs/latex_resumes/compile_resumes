@@ -4,7 +4,7 @@ cd ..
 
 cd back-end_role/
 xelatex back-end.tex
-cp back-end.pdf ../../tech_resume.pdf
+cp back-end.pdf ../../rahul_nath_resume.pdf
 cd ..
 
 
