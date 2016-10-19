@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 OCT 2016 21:46
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 OCT 2016 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,6 +994,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mathsurround' on input line 32.
 
 
@@ -1030,6 +1034,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\mathsurround' on input line 43.
 
 
@@ -1040,6 +1048,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 43.
 
+! Misplaced alignment tab character &.
+l.158 ...ped Udacity's first student-to-student Q&
+                                                  A video platform -- a full...
+
+? 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
 [1
 
@@ -1060,8 +1073,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
  22213 strings out of 493706
- 411967 string characters out of 6145769
- 476368 words of memory out of 5000000
+ 411964 string characters out of 6145769
+ 476376 words of memory out of 5000000
  25374 multiletter control sequences out of 15000+600000
  7932 words of font info for 62 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
