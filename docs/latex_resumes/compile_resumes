@@ -12,4 +12,4 @@ cd data_analysis_role/
 xelatex data_analysis.tex
 cd ..
 
-open data_analysis_role/data_analysis.pdf back-end_role/back-end.pdf android_role/android.pdf
+open back-end_role/back-end.pdf
