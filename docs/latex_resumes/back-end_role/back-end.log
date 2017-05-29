@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  31 MAR 2017 12:52
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 MAY 2017 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,6 +986,40 @@ LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/it' undefined
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/bx/it' undefined
 (Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 36.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 45.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@underline' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 45.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 45.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -996,14 +1030,44 @@ Type  H <return>  for immediate help.
 l.63 \\
        [1\baselineskip]
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \\
+       [1\baselineskip]
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \\
+       [1\baselineskip]
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \location{}
+                 
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./back-end.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 192.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1012,15 +1076,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 22196 strings out of 493706
- 411674 string characters out of 6145769
- 476300 words of memory out of 5000000
- 25363 multiletter control sequences out of 15000+600000
- 6100 words of font info for 55 fonts, out of 8000000 for 9000
+ 22213 strings out of 493706
+ 411964 string characters out of 6145769
+ 476237 words of memory out of 5000000
+ 25374 multiletter control sequences out of 15000+600000
+ 7932 words of font info for 62 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,5n,104p,10360b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,5n,104p,10360b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on back-end.pdf (1 page).
