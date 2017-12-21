@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  20 NOV 2017 23:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  27 JUN 2017 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**back-end.tex
-(./back-end.tex
+**ma_resume.tex
+(./ma_resume.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (./deedy-resume-openfont.cls
@@ -712,8 +712,8 @@ anguage=DFLT;mapping=tex-text;mapping=tex-text;mapping=tex-text;+smcp;"
 .................................................
 
 TextBlockOrigin set to 0mm x 5mm
-) (./back-end.aux)
-\openout1 = `back-end.aux'.
+) (./ma_resume.aux)
+\openout1 = `ma_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -739,6 +739,7 @@ LaTeX Font Info:    Try loading font information for T3+cmr on input line 8.
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 8.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -787,9 +788,9 @@ LaTeX Info: Redefining \ref on input line 8.
 LaTeX Info: Redefining \pageref on input line 8.
 LaTeX Info: Redefining \nameref on input line 8.
 
-(./back-end.out) (./back-end.out)
+(./ma_resume.out) (./ma_resume.out)
 \@outlinefile=\write3
-\openout3 = `back-end.out'.
+\openout3 = `ma_resume.out'.
 
  ABD: EveryShipout initializing macros
 isodate: babel.sty has been loaded
@@ -857,7 +858,7 @@ ut line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 8.
 LaTeX Font Info:    Font shape `EU1/Raleway-ExtraLight(0)/m/n' will be
-(Font)              scaled to size 9.56726pt on input line 17.
+(Font)              scaled to size 9.56726pt on input line 16.
 \g__fontspec_family_Lato-Hai_int=\count147
 .................................................
 . fontspec info: "defining-font"
@@ -912,32 +913,23 @@ ext;+smcp;"
 . and font adjustment code:
 . 
 .................................................
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 17.
+! LaTeX Error: There's no line here to end.
 
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 17.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 17.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 17.
-
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \\[1\baselineskip]
+                       
+? 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/sc' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 31.
+(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 30.
 
 
 LaTeX Font Warning: Font shape `EU1/Lato-Lig(1)/m/sc' undefined
-(Font)              using `EU1/Lato-Lig(1)/m/n' instead on input line 31.
+(Font)              using `EU1/Lato-Lig(1)/m/n' instead on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -950,7 +942,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \\[1\baselineskip]
+l.31 \\[1\baselineskip]
                        
 ? 
 \g__fontspec_family_Lato-Bol_int=\count149
@@ -974,52 +966,6 @@ l.32 \\[1\baselineskip]
 LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 (Font)              using `EU1/Lato-Bol(0)/m/n' instead on input line 33.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
-
-LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/m/it' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 36.
-
-
-LaTeX Font Warning: Font shape `EU1/Lato-Lig(0)/bx/it' undefined
-(Font)              using `EU1/Lato-Lig(0)/m/n' instead on input line 36.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 45.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 45.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 45.
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1027,7 +973,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \\
+l.41 \\
        [1\baselineskip]
 ? 
 
@@ -1037,7 +983,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \\
+l.65 \\
        [1\baselineskip]
 ? 
 
@@ -1047,7 +993,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \\
+l.68 \\
        [1\baselineskip]
 ? 
 
@@ -1057,34 +1003,50 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \\
-        [1\baselineskip]
+l.78 \\
+       [1\baselineskip]
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \\
+       [1\baselineskip]
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \\
+       [1\baselineskip]
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
- (./back-end.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 206.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+ (./ma_resume.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 218.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 22213 strings out of 493706
- 411964 string characters out of 6145769
- 476237 words of memory out of 5000000
- 25374 multiletter control sequences out of 15000+600000
- 7932 words of font info for 62 fonts, out of 8000000 for 9000
+ 22160 strings out of 493706
+ 410683 string characters out of 6145769
+ 475177 words of memory out of 5000000
+ 25335 multiletter control sequences out of 15000+600000
+ 4232 words of font info for 44 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,5n,104p,10360b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,5n,104p,10361b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on back-end.pdf (1 page).
+Output written on ma_resume.pdf (1 page).

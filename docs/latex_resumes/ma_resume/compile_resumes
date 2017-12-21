@@ -1,0 +1,2 @@
+xelatex ma_resume.tex
+open ma_resume.pdf
