@@ -1,0 +1,6 @@
+cd data_analysis_role/
+xelatex data_analysis.tex
+cp data_analysis.pdf ../../rahul_nath_data_resume.pdf
+cd ..
+
+open data_analysis_role/data_analysis.pdf

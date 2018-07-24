@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  18 JUN 2017 11:36
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  25 JAN 2018 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1030,7 +1030,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \\
+l.56 \\
        [1\baselineskip]
 ? 
 
@@ -1040,7 +1040,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \\
+l.64 \\
        [1\baselineskip]
 ? 
 
@@ -1050,17 +1050,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \\
+l.79 \\
        [1\baselineskip]
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \\
+       [1\baselineskip]
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \\
+        [1\baselineskip]
+? 
+
+Overfull \hbox (2.97694pt too wide) in paragraph at lines 197--197
+[]$[]$  
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
  (./data_analysis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 216.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1069,15 +1094,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
  22214 strings out of 493706
  412040 string characters out of 6145769
- 476473 words of memory out of 5000000
+ 476406 words of memory out of 5000000
  25375 multiletter control sequences out of 15000+600000
  7932 words of font info for 62 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,5n,104p,10365b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,5n,104p,10365b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on data_analysis.pdf (1 page).

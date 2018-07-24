@@ -1,0 +1,3 @@
+xelatex general-role.tex
+cp general-role.pdf ../../rahul_nath.pdf
+open general-role.pdf
