@@ -1,0 +1,200 @@
+\documentclass[]{deedy-resume-openfont}
+
+\hypersetup{%
+  colorlinks=true,% hyperlinks will be black
+  urlcolor=blue
+}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Rahul}{Nath}{ Website/Blog:\urlstyle{same} \underline{\href{http://therahulnath.com}{\color{blue} http://therahulnath.com}} |  Email: \underline{\href{mailto:rahul.nath.eph@gmail.com}{\color{blue}rahul.nath.eph@gmail.com}}\\
+Cell: 516.491.9232 | Github: \underline{\href{https://github.com/rahul-nath}{\color{blue}rahul-nath}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.31\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\sectionsep
+\subsection{Georgia Tech}
+\descript{M.S. in Computer Science}
+\location{August 2016 | \color{blue}\underline{\color{blue}\href{http://www.omscs.gatech.edu}{\color{blue}OMSCS}}}
+{\footnotesize \textit{\textbf{(Incomplete)}}}}\\
+{\footnotesize \textit{\textbf{Specialization in Machine Learning}}}}
+\sectionsep
+
+\subsection{Williams College}
+\descript{B.S. in Computer Science \\ B.A. in Economics}
+\location{June 2015 | Williamstown, MA}
+{\footnotesize \textit{\textbf{Dean's List}}}, {\footnotesize \textit{\textbf{Class of 1960 Economics Scholar}}}
+\sectionsep
+
+\subsection{Glen Cove HS, Valedictorian}
+\location{June 2011 |  Glen Cove, New York}
+\sectionsep
+
+\subsection{Relevant Coursework}
+Database Systems Concepts \& Design \\
+Information Security \\
+Data Structures \& Algorithms {\footnotesize \textit{\textbf{(Also T.A.'d) }}} \\
+Data Visualization and Analysis \\
+Machine Learning for Trading \\
+Human Computer Interaction \\
+\sectionsep
+
+
+\section{Open-Source}
+\color{blue}\underline{\color{blue}\href{https://github.com/google/election_results_xml_validator}{NIST Validator}} \\
+\color{blue}\underline{\color{blue}\href{https://github.com/opencivicdata/ocd-division-ids}{Open Civic Data}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\sectionsep
+
+\location{Primary Languages}
+Python \textbullet{} Javascript \\
+\\[1\baselineskip]
+
+\location{Query Languages}
+SQL \textbullet{} InfluxQL \textbullet{} Google DataStore \\
+\\[1\baselineskip]
+
+\location{Back-End}
+Flask \textbullet{} SQLAlchemy \textbullet{} InfluxDB \\
+Pytest \textbullet{} NodeJS \textbullet{} SequelizeJS  \\
+Koa \textbullet{} PassportJS \textbullet{} PostgreSQL\\
+Server-Side Rendering (Jinja)
+\\[1\baselineskip]
+
+\location{Infrastructure Exposure}
+Docker \textbullet{} NGINX \textbullet{} AWS EC2, S3 \\
+Kubernetes \textbullet{} Virtualbox/Vagrant \\
+Unix/Linux \textbullet{} GCP \textbullet{} Redis\\
+\\[1\baselineskip]
+
+\location{Front-End}
+React \textbullet{} Redux \textbullet{} React Native \\
+ HTML/CSS \textbullet{} Sagas \textbullet{} Jest/Enzyme \\
+ BeautifulSoup \textbullet{} D3.js \\
+ Ant Design \textbullet{} Material UI \\
+\\[1\baselineskip]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\sectionsep
+
+\runsubsection{Google}
+\descript{via Scopus IT | Solutions Engineer | \location{ 06/19 - 01/20 }}
+\vspace{\topsep}
+\begin{tightemize}
+
+\item Wrote scripts to create massive configs for election results on Search.
+\item Developed features and unit tests for NIST's CDF XML feed validator.
+\item Worked with news agencies to develop country-specific demos.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Pillar Technologies}
+\descript{| Software Engineer | \location{ 05/18 - 05/19 }}
+\begin{tightemize}
+
+\item Owned development of a supply-chain management system to manage IoT device deployments, shipments, and physical locations.
+%\item Worked on React Native onsite inventory management scanning app.
+\item Generated time-series queries (InfluxDB), data viz (D3.js), \& Redis workers for onsite resource uptime data (GBs of data collected weekly).
+\item Discovered API optimizations that reduced fetches by 50\%.
+
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{WorkRails}
+\descript{| Software Engineer | \location{07/17 - 12/17} }
+\begin{tightemize}
+
+\item Second-hire engineer. Wrote APIs, data models, and UI features end-to-end in a React/Node microservices-based environment.
+\item Owned development of authentication system, SSO, calendar export, and contractor work assignment, bringing in over \$20k in MRR.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Udacity}
+\descript{| Course Manager/Software Dev | \location{08/15 - 07/16 }}
+\begin{tightemize}
+
+\item Developed ETL for YouTube metadata using Python to pull and clean, AWS Redshift to store, and Chartio to access company-wide.
+% \item Owned development of a Python cron job that pulled, cleaned and stored YouTube metadata using AWS Redshift, then pipelined into Chartio for company-wide accessibility.
+\item Re-invented the Intro to Programming Nanodegree into exploratory program to other courses, increasing enrollment by over 20\%.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Naval Research Laboratory}
+\descript{| A.I. Research Intern | \location{06/14 - 09/14 }}
+\begin{tightemize}
+\item Implemented a tool in Python that generates action models in polynomial time -- previously an intractable problem -- expanding the planning domain of environments for an A.I. agent to acquire knowledge.
+\item Designed and implemented an algo to resolve prepositional ambiguity in interpreted speech using contextual info collected from sensor data.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+
+\location{Buddha Health}
+\begin{tightemize}
+\item A pill management app for my father. Locally deployed, it helps him track his frequent med changes. Uses React, Ant Design, Flask, and PostgreSQL.
+\end{tightemize}
+\sectionsep
+
+\location{\color{blue}\underline{\href{https://github.com/rahul-nath/uDiary}{\color{blue}urDiary}}}
+\begin{tightemize}
+\item An open-sourced, dynamically categorizing online reflection journal. Uses React, Material UI, Draft.js, Flask, and PostgreSQL. Hosted on Heroku and Zeit.
+\end{tightemize}
+\sectionsep
+
+\location{\color{blue}\underline{\href{https://github.com/rahul-nath/PrePost2/blob/master/final_try.py}{\color{blue}PrePost2}}}
+\begin{tightemize}
+\item Using selenium, multiprocessing pools, and BeautifulSoup, I created a parallelized webscraper to collect documents and increase baseline accuracy of environment domain model generation by 25\%. These domain models are used by A.I. agents to plan its actions.
+\end{tightemize}
+\sectionsep
+
+\location{\color{blue}\underline{\href{https://github.com/rahul-nath/rentbot}{\color{blue}Rentbot}}}
+\begin{tightemize}
+\item Developed a chatbot designed to help SF residents learn their rights as tenants. Utilized Flask, Google App Engine, and Pandorabots API.
+\end{tightemize}
+\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[]{article}

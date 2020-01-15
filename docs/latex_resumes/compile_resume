@@ -1,6 +1,0 @@
-cd back-end_role/
-xelatex back-end.tex
-cp back-end.pdf ../../rahul_nath_resume.pdf
-cd ..
-
-open back-end_role/back-end.pdf

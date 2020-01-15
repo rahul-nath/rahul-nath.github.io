@@ -1,0 +1,2 @@
+xelatex infrastructure_role.tex
+open infrastructure_role.pdf

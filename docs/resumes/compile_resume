@@ -1,0 +1,6 @@
+cd my_resume/
+xelatex rahul_nath.tex
+cp rahul_nath.pdf ../rahul_nath.pdf
+cd ..
+
+open rahul_nath.pdf

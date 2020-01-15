@@ -1,0 +1,4 @@
+xelatex rahul_nath_spotify.tex
+cp rahul_nath_spotify.pdf rahul_nath.pdf
+
+open rahul_nath.pdf
