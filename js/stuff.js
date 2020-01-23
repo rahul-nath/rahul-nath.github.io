@@ -10,6 +10,7 @@ $(document).ready(function(){
     var ec = {};
     var ec_names = ['WSO', 'WCFM', 'The Williams Octet', 'Williams Strength Club'];
     var ec_pics = ["images/wso.png", "images/wcfm.jpg", "images/octet.jpg", "images/williams_strength.jpg"];
+    /* TODO: Add Buddha Health, urDiary, Rentbot (if you can find it), */
     var names = ['Medicost', 'Honors Senior Research','Queuer','Virtual Assembly Emulation']; // Laundry List App
     var pictures = ["images/medicost.jpg", "images/dfa.png", "images/androiddev.jpg", "images/assembly.png"];
 
